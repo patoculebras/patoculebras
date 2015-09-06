@@ -1,0 +1,92 @@
+body {
+    background: url(../images/bg2.jpg);
+    /* you can do rgb and the values from 0 to 255 eg rgb(255,255,255) for white */
+    background-size: cover;
+    /* thats for the image to adjust to the width of the device */
+    background-attachment: fixed;
+    /* for it to dont move */
+    background-position: 50% 25%;
+    font-family: Helvetica, Arial, sans-serif;
+    /* first you write the ideal one, then the one you want if the ideal is not available, and then sans whatever sans serif if there is non of the previous avaolable */
+    text-align: center;
+}
+
+
+.main {
+margin-bottom: 40px; 
+width: 600px;
+background: rgba(255,255,255,0.8);
+/* that makes it translucid a stands fro alpha */
+margin: 0 auto;
+padding: 40px;
+/* for making shadows to the main */
+border-radius: 0px;
+/* if i want to make border rounded i increase this number */
+box-shadow: 0 0 20px 10px (200,200,200,0.5);
+/* possition first two numbers */
+
+}
+
+h1{
+    text-align: center;
+    font-family: courier;
+    text-shadow: 4px 4px 0px rgb(192,192,192) ;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color: black;
+    font-family: 'Righteous', cursive;
+}
+
+h2{
+    text-align: center;
+    font-family: helvetica;
+    text-transform: lowercase;
+    letter-spacing: 5px;
+    font-weight: normal;
+    color: rgb(255,0,255);
+
+}
+
+h3{
+    margin-bottom: 0;
+    margin-top: 5;
+    cursor: pointer;
+    /* can use many different cursors */
+
+}
+
+img {
+    display: block;
+    /* this allow me to have margins */
+    margin: 40px -6%;
+    /* has to be 0 auto if i want it centered */
+    /*border: 0px dotted black;*/
+    width: 112%;
+    /*had to play with the numbers to have it centered and the width of the white background;*/
+
+}
+
+p,
+ul,
+ol {
+    line-height: 1.4;
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+
+
+}
+
+a {
+
+color: blue;
+text-decoration: none;
+font-weight: bold;
+
+}
+
+a:hover {
+ color: #bb0033;
+
+}
+
